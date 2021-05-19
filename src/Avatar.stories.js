@@ -59,3 +59,12 @@ export const Large = (args) => (
     />
   </div>
 );
+
+
+export const Controls = (args) => <Avatar  {...args} />
+Controls.args = {
+  loading: false,
+  size: 'tiny',
+  username: 'Dominic Nguyen',
+  src: 'https://avatars2.githubusercontent.com/u/263385'
+}
